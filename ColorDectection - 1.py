@@ -9,7 +9,9 @@ for x in range(0,100,5) :
     for y in range(0,100,5) :
         px = pyautogui.pixel(x, y)
         print(px)
-
+        
+#Amazon Textract with Python
+#PyTesseract: Python Optical Character Recognition | Using Tesseract OCR with Python
 # img = cv2.imread("color-signals.jpg")
 # hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 # lower_green = np.array([36, 25, 25])
